@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+//import ComposableArchitecture
 
 @main
 struct GettingTCAApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CounterView(
+                store: .init(
+                    initialState: CounterFeature.State(),
+                    reducer: { CounterFeature()._printChanges() }
+                )
+            )
         }
     }
 }

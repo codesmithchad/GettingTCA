@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7F3D82A92B5E2CA10097FDBB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 7F3D82A82B5E2CA10097FDBB /* ComposableArchitecture */; };
+		7F3D82AD2B5E339F0097FDBB /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D82A32B5E2C670097FDBB /* CounterFeature.swift */; };
+		7F3D82AE2B5E33AA0097FDBB /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D82A52B5E2C700097FDBB /* CounterView.swift */; };
 		7F94EEBD2B5E2AA200B880CD /* GettingTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94EEBC2B5E2AA200B880CD /* GettingTCAApp.swift */; };
-		7F94EEBF2B5E2AA200B880CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94EEBE2B5E2AA200B880CD /* ContentView.swift */; };
 		7F94EEC12B5E2AA300B880CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F94EEC02B5E2AA300B880CD /* Assets.xcassets */; };
 		7F94EEC42B5E2AA300B880CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F94EEC32B5E2AA300B880CD /* Preview Assets.xcassets */; };
 		7F94EECE2B5E2AA300B880CD /* GettingTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94EECD2B5E2AA300B880CD /* GettingTCATests.swift */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F3D82A32B5E2C670097FDBB /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		7F3D82A52B5E2C700097FDBB /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		7F94EEB92B5E2AA200B880CD /* GettingTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F94EEBC2B5E2AA200B880CD /* GettingTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingTCAApp.swift; sourceTree = "<group>"; };
-		7F94EEBE2B5E2AA200B880CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F94EEC02B5E2AA300B880CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F94EEC32B5E2AA300B880CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F94EEC92B5E2AA300B880CD /* GettingTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F3D82AB2B5E2FDB0097FDBB /* Your first feature */ = {
+			isa = PBXGroup;
+			children = (
+				7F3D82A32B5E2C670097FDBB /* CounterFeature.swift */,
+				7F3D82A52B5E2C700097FDBB /* CounterView.swift */,
+			);
+			path = "Your first feature";
+			sourceTree = "<group>";
+		};
+		7F3D82AC2B5E2FE80097FDBB /* Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				7F3D82AB2B5E2FDB0097FDBB /* Your first feature */,
+			);
+			path = Essentials;
+			sourceTree = "<group>";
+		};
 		7F94EEB02B5E2AA200B880CD = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				7F94EEBC2B5E2AA200B880CD /* GettingTCAApp.swift */,
-				7F94EEBE2B5E2AA200B880CD /* ContentView.swift */,
+				7F3D82AC2B5E2FE80097FDBB /* Essentials */,
 				7F94EEC02B5E2AA300B880CD /* Assets.xcassets */,
 				7F94EEC22B5E2AA300B880CD /* Preview Content */,
 			);
@@ -265,8 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F94EEBF2B5E2AA200B880CD /* ContentView.swift in Sources */,
 				7F94EEBD2B5E2AA200B880CD /* GettingTCAApp.swift in Sources */,
+				7F3D82AD2B5E339F0097FDBB /* CounterFeature.swift in Sources */,
+				7F3D82AE2B5E33AA0097FDBB /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
