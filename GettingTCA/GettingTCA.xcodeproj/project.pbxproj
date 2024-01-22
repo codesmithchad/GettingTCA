@@ -38,6 +38,7 @@
 /* Begin PBXFileReference section */
 		7F3D82A32B5E2C670097FDBB /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		7F3D82A52B5E2C700097FDBB /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		7F3D82B02B5E3C150097FDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7F94EEB92B5E2AA200B880CD /* GettingTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F94EEBC2B5E2AA200B880CD /* GettingTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingTCAApp.swift; sourceTree = "<group>"; };
 		7F94EEC02B5E2AA300B880CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,21 +76,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F3D82AB2B5E2FDB0097FDBB /* Your first feature */ = {
+		7F3D82AC2B5E2FE80097FDBB /* Essentials */ = {
 			isa = PBXGroup;
 			children = (
 				7F3D82A32B5E2C670097FDBB /* CounterFeature.swift */,
 				7F3D82A52B5E2C700097FDBB /* CounterView.swift */,
 			);
-			path = "Your first feature";
+			path = Essentials;
 			sourceTree = "<group>";
 		};
-		7F3D82AC2B5E2FE80097FDBB /* Essentials */ = {
+		7F3D82B12B5E3FFE0097FDBB /* App */ = {
 			isa = PBXGroup;
 			children = (
-				7F3D82AB2B5E2FDB0097FDBB /* Your first feature */,
+				7F94EEBC2B5E2AA200B880CD /* GettingTCAApp.swift */,
 			);
-			path = Essentials;
+			path = App;
 			sourceTree = "<group>";
 		};
 		7F94EEB02B5E2AA200B880CD = {
@@ -115,9 +116,10 @@
 		7F94EEBB2B5E2AA200B880CD /* GettingTCA */ = {
 			isa = PBXGroup;
 			children = (
-				7F94EEBC2B5E2AA200B880CD /* GettingTCAApp.swift */,
+				7F3D82B12B5E3FFE0097FDBB /* App */,
 				7F3D82AC2B5E2FE80097FDBB /* Essentials */,
 				7F94EEC02B5E2AA300B880CD /* Assets.xcassets */,
+				7F3D82B02B5E3C150097FDBB /* Info.plist */,
 				7F94EEC22B5E2AA300B880CD /* Preview Content */,
 			);
 			path = GettingTCA;
@@ -452,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GettingTCA/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GettingTCA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -480,6 +483,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GettingTCA/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GettingTCA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
